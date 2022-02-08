@@ -30,6 +30,6 @@ router.get('/instock/:qt', function(req, res) {
         }
     }
     res.json(list);
-  });
+  }); 
 
 module.exports = router;
