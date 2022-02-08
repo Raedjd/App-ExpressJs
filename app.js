@@ -27,7 +27,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
 app.use('/os', operatingSystemRouter) //middleware for os 
-app.use('/product', productRouter)
+app.use('/product', productRouter)  //middleware for product
 
 
 // catch 404 and forward to error handler
